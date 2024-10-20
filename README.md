@@ -51,3 +51,21 @@ To run this project locally, follow these steps:
 `
 
 Or you can right-click on index.html and select "Open with" and choose your preferred browser.
+
+## API Keys Configuration
+
+To run this project, you will need to set up API keys for EmailJS and Last.fm. Follow the steps below to create your API keys and configure them:
+
+1. EmailJS API Key:
+
+Go to EmailJS and sign up or log in to your account.
+Create a new EmailJS service and template.
+Navigate to the Integration section and copy your Public Key.
+Set up your service ID and template ID in the script.js file or use environment variables.
+
+2. Last.fm API Key:
+
+Visit Last.fm API and create an account if you don't have one.
+Go to Create API account and follow the steps to generate an API key.
+Add your Last.fm API key in the appropriate part of the project.
+Make sure to replace the placeholders in the script.js with your actual API keys or store them in a .env file (if applicable) to keep them secure.
